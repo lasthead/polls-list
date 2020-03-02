@@ -1,13 +1,15 @@
 <template>
-
+  <div>
+    <TopMenu />
+  </div>
 </template>
 
 <script>
-  export default {
-    name: 'questions'
-  }
+import TopMenu from '../../components/TopMenu'
+export default {
+  name: 'Questions',
+  components: { TopMenu }
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

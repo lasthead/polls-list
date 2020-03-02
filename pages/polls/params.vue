@@ -1,13 +1,15 @@
 <template>
-  $END$
+  <div>
+    <TopMenu />
+  </div>
 </template>
 
 <script>
-  export default {
-    name: 'params'
-  }
+import TopMenu from '../../components/TopMenu'
+export default {
+  name: 'Params',
+  components: { TopMenu }
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
