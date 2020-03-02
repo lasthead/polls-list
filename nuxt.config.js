@@ -25,7 +25,7 @@ export default {
    */
   css: [],
   router: {
-    linkActiveClass: 'element__link--active'
+    linkExactActiveClass: 'element__link--active'
   },
   /*
    ** Plugins to load before mounting the App
